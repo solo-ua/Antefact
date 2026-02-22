@@ -1,0 +1,10 @@
+node_modules/
+.angular/
+.vscode/
+.editorconfig
+dist/
+tmp/
+out-tsc/
+bazel-out/
+.DS_Store
+Thumbs.db
