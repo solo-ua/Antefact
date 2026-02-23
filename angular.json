@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "PokerGame": {
+    "Antefact": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/poker-game",
+            "outputPath": "dist/Antefact",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "PokerGame:build:production"
+              "buildTarget": "Antefact:build:production"
             },
             "development": {
-              "buildTarget": "PokerGame:build:development"
+              "buildTarget": "Antefact:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "PokerGame:build"
+            "buildTarget": "Antefact:build"
           }
         },
         "test": {
